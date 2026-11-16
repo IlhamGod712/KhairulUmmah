@@ -1,0 +1,46 @@
+# Agent configuration is local-only by design.
+/AGENTS.md
+/CLAUDE.md
+/boost.json
+/opencode.json
+/opencode.jsonc
+/.agents
+/.amp
+/.claude
+/.cursor
+/.factory
+/.grok
+/.junie
+/.kiro
+/.pi
+/.mcp.json
+/.idea
+/.vscode
+/.zed
+/.fleet
+
+# SPA
+/frontend/node_modules
+/frontend/dist
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Dependencies (root-level install)
+/node_modules/
+
+# Local junk
+/tmp/
+/tmphpstan.txt
+npm-debug.log
+yarn-error.log
+
+# Stale leftovers / local-only config
+backend/.agents/
+backend/boost.json
+backend/routes/api.php.bak
+backend/routes/api_clean.php
